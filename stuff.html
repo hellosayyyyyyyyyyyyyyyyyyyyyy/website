@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>@~@</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="aa">
+    <meta property="og:description" content="weawr">
+    <meta property="og:type" content="website">
+</head>
+<style>
+
+    html, body {
+        background-image: url('sao2.png');
+        background-position-x: 77%;
+        background-repeat: repeat-y;
+        background-size: 280%;
+        background-position-y: 46%;
+        font-family:"Arsenal";
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer {
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
+
+
+    .center {text-align: center;}
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        height: 100vh; }
+    .none {
+            text-decoration: none;
+        }
+   .links {
+       text-align: center;    
+       margin-top: 10px;     
+       display: flex;           
+       flex-direction: column;  
+       gap: 8px;               
+}
+    .big {
+        font-size: 1.5em;
+        font-style: bold, italic;
+    }
+     .lessbig {
+        font-size: 1.3em;
+        font-style: bold, italic;
+    }
+    .text {
+        font-size: 2em;
+    }
+    .up{
+        transform: translateY(50%);
+    }
+
+
+</style>
+<body>
+ 
+    <main id="main" role="main">
+
+      <div class =middle>
+       <h1 class="text-align" class="text" style="color: rgb(0, 0, 0);"><span class="lessbig">cred</span>its</h1>
+        
+         <div class="links">
+              <a class="none" style="color:black;" href="https://soundcloud.com/bbykan/kindadependz-prod-minionrock">bbykan-kindadependz (all plats)</a>
+          will add more later lol just wna get the site up
+         </div>
+             <h1 class="text-align"  style="color: rgb(0, 0, 0);"><span class="lessbig">feat</span>ures</h1>
+            <a class="none" style="color:black;" href="https://soundcloud.com/minionrock/brothers">minionrock-brothers ft ckwduke (my song but i lost the account :p)</a>
+             <a class="none" style="color:black;" href="https://soundcloud.com/filmcameras/i-dont-care-w-minionrock-prod">filmcameras-i don't care</a>
+
+      </div>
+     
+
+
+
+           
+           <footer role="contentinfo" class="center" class="up">
+        <p>&copy; <span id="year"></span> longwert</p>
+    </footer>
+
+    
+
+
+    </main>
+ 
+
+
+
+
+
+
+<script>
+     
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+
+
+</body>
+</html>
